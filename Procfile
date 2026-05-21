@@ -1,1 +1,0 @@
-web: playwright install chromium && playwright install-deps chromium && gunicorn server:app --workers 1 --timeout 60 --bind 0.0.0.0:$PORT
